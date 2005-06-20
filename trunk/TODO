@@ -1,0 +1,4 @@
+Finish preparing it for a CPAN release.
+
+1. Need an svn version of cvs-log.
+2. Need tests.

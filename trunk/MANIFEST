@@ -1,0 +1,8 @@
+# $Id$
+CHANGES
+MANIFEST
+META.yml
+Makefile.PL
+README
+Snort.pm
+t/01_basic.t
