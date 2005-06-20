@@ -12,7 +12,7 @@ WriteMakefile(
   ABSTRACT     => 'POE stream filter for parsing Snort logs',
   VERSION_FROM => 'Snort.pm',
 
-  PM           => { 'Snort.pm' => '$(INST_LIBDIR)/DNS.pm' },
+  PM           => { 'Snort.pm' => '$(INST_LIBDIR)/Snort.pm' },
   PREREQ_PM    => {
     POE        => 0.3101,
     Test::More => 0,
