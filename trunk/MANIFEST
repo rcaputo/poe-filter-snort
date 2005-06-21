@@ -1,7 +1,6 @@
 # $Id$
 CHANGES
 MANIFEST
-META.yml
 Makefile.PL
 README
 Snort.pm
