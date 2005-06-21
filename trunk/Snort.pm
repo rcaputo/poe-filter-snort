@@ -74,7 +74,7 @@ use warnings;
 use strict;
 
 use vars qw($VERSION @ISA);
-$VERSION = do {my@r=(q$Revision 0.0$=~/\d+/g);sprintf"%d."."%04d"x$#r,@r};
+$VERSION = '0.01';
 @ISA = qw(POE::Filter);
 
 use Carp qw(carp croak);
