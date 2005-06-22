@@ -21,7 +21,7 @@ WriteMakefile(
 		COMPRESS   => 'gzip -9f',
 		SUFFIX     => 'gz',
 		PREOP      => (
-			'svn-log.perl --repo https://thirdlobe.com/projects/pofi-snort | ' .
+			'svn-log.perl --repo https://thirdlobe.com/svn/pofi-snort | ' .
 			'tee ./$(DISTNAME)-$(VERSION)/CHANGES > ./CHANGES'
 		),
 	},

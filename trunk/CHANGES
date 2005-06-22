@@ -1,0 +1,32 @@
+==============================
+9999-99-99 99:99:99 (untagged)
+==============================
+
+  2005-06-22 04:30:04 (r5) by rcaputo
+  README M; Snort.pm M; MANIFEST M; Makefile.PL M
+
+    Add the svn:keywords property. 
+
+  2005-06-21 19:51:41 (r4) by rcaputo; Snort.pm M
+
+    The VERSION is human-controlled. Duh! 
+
+  2005-06-21 19:12:03 (r3) by rcaputo; MANIFEST M; Makefile.PL M
+
+    Remove META.yml from the MANIFEST since it's added automatically at
+    "make dist" time. Updated Makefile.PL for Snort. It was originally
+    copied from a different project. 
+
+  2005-06-20 16:18:13 (r2) by rcaputo; Makefile.PL M
+
+    Don't move POE::Filter::Snort into blib/lib/POE/Filter/DNS.pm! D'oh! 
+
+  2005-06-19 23:20:57 (r1) by rcaputo
+  README A; /trunk A; Snort.pm A; /branches A; t A; TODO A; MANIFEST A;
+  Makefile.PL A; CHANGES A; /tags A
+
+    Initial import. 
+
+==============
+End of Excerpt
+==============
