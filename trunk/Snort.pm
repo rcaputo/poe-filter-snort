@@ -117,9 +117,12 @@ sub get_one {
 		$line = $line->[0];
 
 		if ($self->[PARSER_STATE] & STATE_OUTSIDE) {
-			next unless $line =~ /^\[\*\*\]\s*\[\d+:\d+:\d+\]\s*(.*?)\s*\[\*\*\]/;
+			next unless $line =~
+                        /^\[\*\*\]\s*\[(\d+):(\d+):(\d+)\]\s*(.*?)\s*\[\*\*\]/;
 			$self->[PARSED_RECORD] = {
-				comment => $1,
+				sid			=> $2,
+				rev			=> $3,
+				comment => $4,
 				xref    => [ ],
 			};
 			$self->[PARSER_STATE]  = STATE_INSIDE;
