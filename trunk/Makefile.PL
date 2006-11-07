@@ -10,6 +10,7 @@ WriteMakefile(
 	NAME         => 'POE::Filter::Snort',
 	AUTHOR       => 'Rocco Caputo <rcaputo@cpan.org>',
 	ABSTRACT     => 'POE stream filter for parsing Snort logs',
+	LICENSE      => 'perl',
 	VERSION_FROM => 'Snort.pm',
 
 	PM           => { 'Snort.pm' => '$(INST_LIBDIR)/Snort.pm' },
