@@ -12,7 +12,12 @@ WriteMakefile(
 	ABSTRACT     => 'POE stream filter for parsing Snort logs',
 	LICENSE      => 'perl',
 	VERSION_FROM => 'Snort.pm',
-
+	META_ADD     => {
+		resources  => {
+			license    => 'http://dev.perl.org/licenses/',
+			repository => 'http://thirdlobe.com/svn/pofi-snorit/trunk'
+		},
+	},
 	PM           => { 'Snort.pm' => '$(INST_LIBDIR)/Snort.pm' },
 	PREREQ_PM    => {
 		POE        => 0.3101,

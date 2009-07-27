@@ -212,18 +212,21 @@ sub get {
 Snort - "the de facto standard for intrusion detection/prevention"
 http://www.snort.org/
 
-POE::Filter::Snort's Subversion repository is hosted at
-http://thirdlobe.com/projects/ .  Patches and collaborators are
-welcome.
+=head1 BUG TRACKER
 
-=head1 AUTHORS
+https://rt.cpan.org/Dist/Display.html?Status=Active&Queue=POE-Filter-Snort
 
-POE::Filter::Snort is written by Rocco Caputo.  His CPAN ID is
-RCAPUTO.  You can reach him by e-mail by his CPAN ID @cpan.org.
+=head1 REPOSITORY
+
+http://thirdlobe.com/svn/pofi-snort/
+
+=head1 OTHER RESOURCES
+
+http://search.cpan.org/dist/POE-Filter-Snort/
 
 =head1 COPYRIGHT
 
-Copyright 2005, Rocco Caputo.  All rights are reserved.
+Copyright 2005-2009, Rocco Caputo.  All rights are reserved.
 
 POE::Filter::Snort is free software; you may use, redistribute, and/or
 modify it under the same terms as Perl itself.
