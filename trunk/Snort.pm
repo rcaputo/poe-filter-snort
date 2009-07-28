@@ -77,7 +77,7 @@ use warnings;
 use strict;
 
 use vars qw($VERSION @ISA);
-$VERSION = '0.02';
+$VERSION = '0.030';
 @ISA = qw(POE::Filter);
 
 use Carp qw(carp croak);

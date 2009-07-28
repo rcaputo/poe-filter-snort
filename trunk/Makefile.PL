@@ -20,8 +20,8 @@ WriteMakefile(
 	},
 	PM           => { 'Snort.pm' => '$(INST_LIBDIR)/Snort.pm' },
 	PREREQ_PM    => {
-		POE        => 0.3101,
-		Test::More => 0,
+		'POE'        => 1.007,
+		'Test::More' => 0,
 	},
 	dist         => {
 		COMPRESS   => 'gzip -9f',
