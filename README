@@ -1,5 +1,3 @@
-$Id$
-
 --------
 Abstract
 --------
@@ -57,10 +55,11 @@ It should now be ready to use.
 Bleeding Edge
 -------------
 
-This module is maintained in a public Subversion repository.  You can
-follow the latest developments at http://thirdlobe.com/projects/ with
-a Subversion client or your favorite web browser.  Patches and
+This module is maintained in two public git repositories.  Patches and
 collaborators are welcome.
+
+	http://github.com/rcaputo/poe-filter-snort
+	http://gitorious.org/poe-filter-snort
 
 Thanks for reading!
 
